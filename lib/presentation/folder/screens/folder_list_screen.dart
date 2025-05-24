@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../data/logic/folder/folder_bloc.dart';
-import '../data/logic/folder/folder_event.dart';
-import '../data/logic/folder/folder_state.dart';
+import '../logic/folder_bloc.dart';
+import '../logic/folder_event.dart';
+import '../logic/folder_state.dart';
 import '../models/folder.dart';
 import 'package:uuid/uuid.dart';
-import '../core/constants/app_colors.dart';
-import 'document_list_screen.dart';
-import '../data/logic/document/document_bloc.dart';
-import '../data/logic/document/document_state.dart';
-import '../models/document.dart';
-import '../data/logic/document/document_event.dart';
+import '../../../core/constants/app_colors.dart';
+import '../../document/screens/document_list_screen.dart';
+import '../../document/logic/document_bloc.dart';
+import '../../document/logic/document_state.dart';
+import '../../document/models/document.dart';
+import '../../document/logic/document_event.dart';
 import 'package:file_selector/file_selector.dart';
-import '../utils/dialogs.dart';
+import '../../../core/widgets/dialogs.dart';
 
 class FolderListScreen extends StatelessWidget {
   final String? parentId;

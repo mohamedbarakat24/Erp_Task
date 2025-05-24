@@ -1,4 +1,4 @@
-import '../../../models/folder.dart';
+import '../models/folder.dart';
 
 abstract class FolderState {}
 

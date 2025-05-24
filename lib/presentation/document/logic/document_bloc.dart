@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../models/document.dart';
+import '../models/document.dart';
 import 'document_event.dart';
 import 'document_state.dart';
 

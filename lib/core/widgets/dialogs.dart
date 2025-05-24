@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../data/logic/document/document_bloc.dart';
-import '../data/logic/document/document_event.dart';
-import '../models/document.dart';
-import '../core/constants/app_colors.dart';
+import '../../presentation/document/logic/document_bloc.dart';
+import '../../presentation/document/logic/document_event.dart';
+import '../../presentation/document/models/document.dart';
+import '../constants/app_colors.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:file_selector/file_selector.dart';

@@ -1,4 +1,4 @@
-import '../../../models/document.dart';
+import '../models/document.dart';
 
 abstract class DocumentEvent {}
 

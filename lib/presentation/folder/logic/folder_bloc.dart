@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../models/folder.dart';
+import '../models/folder.dart';
 import 'folder_event.dart';
 import 'folder_state.dart';
 

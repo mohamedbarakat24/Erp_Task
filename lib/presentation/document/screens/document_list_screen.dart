@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../data/logic/document/document_bloc.dart';
-import '../data/logic/document/document_event.dart';
-import '../data/logic/document/document_state.dart';
+import '../logic/document_bloc.dart';
+import '../logic/document_event.dart';
+import '../logic/document_state.dart';
 import '../models/document.dart';
 import 'package:uuid/uuid.dart';
-import '../core/constants/app_colors.dart';
+import '../../../core/constants/app_colors.dart';
 import 'package:file_selector/file_selector.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'package:open_filex/open_filex.dart';

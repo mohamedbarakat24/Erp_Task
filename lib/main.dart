@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:erp_task/data/logic/folder/folder_bloc.dart';
-import 'package:erp_task/data/logic/folder/folder_event.dart';
-import 'package:erp_task/data/logic/document/document_bloc.dart';
-import 'package:erp_task/data/logic/document/document_event.dart';
-import 'screens/folder_list_screen.dart';
+import 'package:erp_task/presentation/folder/logic/folder_bloc.dart';
+import 'package:erp_task/presentation/folder/logic/folder_event.dart';
+import 'package:erp_task/presentation/document/logic/document_bloc.dart';
+import 'package:erp_task/presentation/document/logic/document_event.dart';
+import 'presentation/folder/screens/folder_list_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uuid/uuid.dart';
 import 'core/constants/app_colors.dart';
